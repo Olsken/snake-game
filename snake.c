@@ -25,7 +25,6 @@ void kill_snake(struct snake_t *snake);
 void spawn_apple(WINDOW *game_window, int game_window_height, int game_window_width, int *apple_y, int *apple_x);
 void game_over(WINDOW *game_window, int game_window_height, int game_window_width);
 void print_debug(struct snake_t *snake);
-
 struct snake_t *init_snake(int y, int x);
 
 int main()
